@@ -163,7 +163,8 @@ function CheckoutPage() {
       order_id: order.id,
       product_id: i.product.id,
       product_name: i.product.name,
-      unit_price: i.product.price,
+      product_image: i.product.image,
+      unit_price: Number(i.product.price),
       quantity: i.quantity,
     }));
 
